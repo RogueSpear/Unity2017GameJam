@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Start () {
 		myRigidbody = gameObject.GetComponent <Rigidbody2D> ();
-	
+        this.name = "Player";
 	}
 
 
